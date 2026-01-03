@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 50">
+  <svg width="56" height="46" x="2" y="2" viewBox="0 300 680 370">
+    <g transform="matrix(-0.99862953,-0.05233596,-0.05233596,0.99862953,-293.16905)">
+      <g>
+        <path style="fill:#fff;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="m 356.7015,432.05147 c 0,0 371.9485,70.29853 318.7085,72.11853 l -170.42,5.84 -99.33,-11.68 z"/>
+        <path style="fill:#fff;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="M 67.677612,420.64351 222.581,423.29 192.391,465.17 C 148.361,449.54 104.80261,452.38351 67.677612,420.64351 Z"/>
+        <path style="fill:#999;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="m 211.87,442.77 -89.59,2.92 65.24,27.27 z"/>
+        <path style="fill:#999" d="m 297.57,313.25 17.52,104.2 -35.86,69.53 -22.57,-104.59 z"/>
+        <path style="fill:#fff;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="m 297.46139,312.83201 c -13.53,56.49 -24.88639,115.96838 -19.18591,170.2574 l -109.08199,6.02464 z"/>
+        <path style="fill:#fff;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="M 278.31877,483.7694 131.35526,569.39134 273.22,618.06 Z"/>
+        <path style="fill:#fff;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="m 278.286,483.69444 -5.68697,134.05653 c 0,0 147.46274,42.13738 259.98792,46.01125 z"/>
+        <path style="fill:#fff;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="m 66.581234,420.27863 c 1.675,8.38 153.766196,57.48852 211.911116,63.43618 L 131.50457,569.48148 93.93901,490.20242 Z"/>
+        <path style="fill:#999;stroke:#000;stroke-width:6" d="m 373.62371,458.81535 153.68887,42.29982 -147.03941,-4.94253 z"/>
+        <path style="fill:#fff;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="m 297.36937,312.64973 c 2.37,58.03 8.92218,118.78052 -18.11782,171.02052 l 135.06127,29.14672 z"/>
+        <path style="fill:#fff;stroke:#000;stroke-width:6;stroke-linejoin:bevel" d="m 278.30446,483.70277 c 0,0 260.57554,25.28723 401.78554,19.43723 L 532.67042,663.81063 Z"/>
+      </g>
+    </g>
+  </svg>
+  <text x="66" y="34" style="font-family:'Space Mono',monospace;font-weight:700;font-size:22px;fill:#fafafa">tiny releases</text>
+</svg>
