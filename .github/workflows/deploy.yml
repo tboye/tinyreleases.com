@@ -28,7 +28,7 @@ jobs:
       - name: Generate social image from SVG
         run: |
           sudo apt-get update && sudo apt-get install -y librsvg2-bin
-          rsvg-convert logo.svg -w 1200 -h 630 -o og-image.png
+          rsvg-convert og-image.svg -o og-image.png
 
       - name: Set up Pages
         uses: actions/configure-pages@v4
