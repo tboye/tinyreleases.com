@@ -25,10 +25,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate social image from SVG
+      - name: Generate OG image
         run: |
-          sudo apt-get update && sudo apt-get install -y librsvg2-bin
-          rsvg-convert og-image.svg -o og-image.png
+          sudo apt-get install -y librsvg2-bin fonts-open-sans
+          mkdir -p ~/.local/share/fonts
+          wget -q "https://github.com/google/fonts/raw/refs/heads/main/ofl/spacemono/SpaceMono-Bold.ttf" -O ~/.local/share/fonts/SpaceMono-Bold.ttf
+          fc-cache -f
+          rsvg-convert og-image.svg -w 1200 -h 630 -o og-image.png
 
       - name: Set up Pages
         uses: actions/configure-pages@v4
