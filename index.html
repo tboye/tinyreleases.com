@@ -18,7 +18,7 @@
   <link rel="canonical" href="https://tinyreleases.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Outfit:wght@300..700&display=swap" rel="stylesheet">
   <script defer src="https://cloud.umami.is/script.js" data-website-id="4995c1b1-52b8-4505-9406-41946f89cdbe"></script>
   <style>
     * {
@@ -34,7 +34,7 @@
       align-items: center;
       justify-content: center;
       background: #0a0a0a;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Outfit', sans-serif;
       color: #fafafa;
     }
 
@@ -109,6 +109,62 @@
       border-color: #fafafa;
     }
 
+    .projects {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .project {
+      display: block;
+      background: #141414;
+      border: 1px solid #222;
+      border-radius: 8px;
+      padding: 1.5rem;
+      width: 280px;
+      text-align: left;
+      text-decoration: none;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .project:hover {
+      border-color: #444;
+      transform: translateY(-2px);
+    }
+
+    .project-name {
+      font-family: 'Space Mono', monospace;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fafafa;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-desc {
+      font-size: 0.85rem;
+      color: #888;
+      line-height: 1.5;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.75rem;
+    }
+
+    .tag {
+      font-size: 0.65rem;
+      color: #666;
+      border: 1px solid #333;
+      border-radius: 3px;
+      padding: 0.2rem 0.4rem;
+      text-transform: lowercase;
+    }
+
     @media (max-width: 768px) {
       .logo svg {
         width: 90vw;
@@ -127,6 +183,16 @@
 
       .email {
         font-size: 0.85rem;
+      }
+
+      .projects {
+        margin-top: 2rem;
+        gap: 1rem;
+      }
+
+      .project {
+        width: 100%;
+        max-width: 320px;
       }
     }
   </style>
@@ -157,6 +223,42 @@
     </a>
     <div class="content">
       <p class="slogan">Software made with care.</p>
+
+      <div class="projects">
+        <a class="project" href="https://offbeat.amsterdam" target="_blank" rel="noopener">
+          <p class="project-name">[offbeat amsterdam]</p>
+          <p class="project-desc">Event calendar for Amsterdam's non-mainstream scene. 70+ venues.</p>
+          <div class="project-tags">
+            <span class="tag">python</span>
+            <span class="tag">javascript</span>
+            <span class="tag">scraping</span>
+            <span class="tag">ETL</span>
+            <span class="tag">events</span>
+            <span class="tag">free</span>
+          </div>
+        </a>
+        <a class="project" href="https://mubibingo.com" target="_blank" rel="noopener">
+          <p class="project-name">MUBI Bingo</p>
+          <p class="project-desc">Film/series availability checker for MUBI. 50 countries.</p>
+          <div class="project-tags">
+            <span class="tag">javascript</span>
+            <span class="tag">browser extension</span>
+            <span class="tag">cinema</span>
+            <span class="tag">free</span>
+          </div>
+        </a>
+        <a class="project" href="https://apify.com/chalkandcheese" target="_blank" rel="noopener">
+          <p class="project-name">Apify Actors</p>
+          <p class="project-desc">Event data tools on Apify. 99% success rate.</p>
+          <div class="project-tags">
+            <span class="tag">python</span>
+            <span class="tag">scraping</span>
+            <span class="tag">events</span>
+            <span class="tag">music</span>
+          </div>
+        </a>
+      </div>
+
       <p class="email"><a href="mailto:hello@tinyreleases.com">hello@tinyreleases.com</a></p>
     </div>
   </div>
