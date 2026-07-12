@@ -27,6 +27,7 @@ jobs:
 
       - name: Generate OG image
         run: |
+          sudo apt-get update
           sudo apt-get install -y inkscape
           mkdir -p ~/.local/share/fonts
           wget -q "https://github.com/google/fonts/raw/refs/heads/main/ofl/spacemono/SpaceMono-Bold.ttf" -O ~/.local/share/fonts/SpaceMono-Bold.ttf
